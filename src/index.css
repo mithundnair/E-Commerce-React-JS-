@@ -1,0 +1,13 @@
+.Brand {
+  transition: color 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.Brand:hover {
+  color: #ff9800; /* Change to your desired hover color */
+  text-decoration: none; /* Remove underline, if any */
+}
+
+#body{
+  background-color: gray;
+}
+
