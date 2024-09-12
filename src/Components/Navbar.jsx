@@ -51,7 +51,7 @@ const MyNavbar = () => {
         <Form className="d-flex">
           <FormControl type="search" placeholder="Search for products" className="me-2 rounded-5" aria-label="Search"/>
           <Button variant="outline-light">
-            <FontAwesomeIcon icon={faSearch} />
+            <FontAwesomeIcon icon={faSearch}/>
           </Button>
         </Form>
       </Container>
