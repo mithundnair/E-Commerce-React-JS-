@@ -47,9 +47,9 @@ const MyNavbar = () => {
       </Navbar>
 
       {/* Search Bar Component */}
-      <Container className="my-3">
-        <Form className="d-flex">
-          <FormControl type="search" placeholder="Search for products" className="me-2 rounded-5" aria-label="Search"/>
+      <Container className="my-4">
+        <Form className="d-flex form-control rounded-5 ps-2">
+          <FormControl type="search" placeholder="Search for products" className="my-0 border-0 rounded-5" aria-label="Search"/>
           <Button variant="outline-light">
             <FontAwesomeIcon icon={faSearch} />
           </Button>
@@ -59,5 +59,5 @@ const MyNavbar = () => {
     </>
   );
 }
-  
+
   export default MyNavbar;
