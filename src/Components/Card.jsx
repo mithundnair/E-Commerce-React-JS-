@@ -1,4 +1,7 @@
 import React from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faSearch } from '@fortawesome/free-solid-svg-icons';
+import {Container, Form, FormControl, Button} from 'react-bootstrap'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import CardImage1 from '../images/card1(1).jpg';
 import CardImage2 from '../images/card2(1).png';
@@ -31,6 +34,16 @@ import CardImage29 from '../images/realme6t.jpg';
 
 const Mycard = () => {
     return (<>
+
+    {/* Search Bar Component */}
+    <Container className="my-4">
+        <Form className="d-flex form-control rounded-5 ps-2">
+          <FormControl type="search" placeholder="Search for products" className="my-0 border-0 rounded-5" aria-label="Search"/>
+          <Button variant="outline-light">
+            <FontAwesomeIcon icon={faSearch}/>
+          </Button>
+        </Form>
+      </Container>
       <section aria-label="Carousel Row">
 
         <div className="row"> {/* Center the row vertically and horizontally */}
@@ -83,7 +96,7 @@ const Mycard = () => {
           <div className="col">
             {/* First Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height: '500px' }}>
-              <h4 className="title mt-2">Starting ₹899 | Headphones</h4>
+              <h4 className="titles mt-2">Starting ₹899 | Headphones</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -149,7 +162,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="title mt-2">Offers Upto 60% | Shoes</h4>
+              <h4 className="titles mt-2">Offers Upto 60% | Shoes</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -215,7 +228,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="title mt-2">Gym Accessories | ₹499 Onwards </h4>
+              <h4 className="titles mt-2">Gym Accessories | ₹499 Onwards </h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -282,7 +295,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="title mt-2">Nothing Phones | Midnight Sale </h4>
+              <h4 className="titles mt-2">Nothing Phones | Midnight Sale </h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -349,7 +362,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="title mt-2">Home Accessories | Upto 55% Off</h4>
+              <h4 className="titles mt-2">Home Accessories | Upto 55% Off</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -417,7 +430,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="title mt-2">Gaming Phones | Exciting Offers</h4>
+              <h4 className="titles mt-2">Gaming Phones | Exciting Offers</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
