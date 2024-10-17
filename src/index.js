@@ -6,13 +6,14 @@ import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
-
+import { BrowserRouter as Router } from 'react-router-dom'; // Import Router
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Router>
+      <App /> {/* Wrap App inside Router */}
+    </Router>
   </React.StrictMode>
 );
 

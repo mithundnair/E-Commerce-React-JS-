@@ -36,7 +36,7 @@ const Mycard = () => {
     return (<>
 
     {/* Search Bar Component */}
-    <Container className="my-4">
+    <Container className="my-4 p-5">
         <Form className="d-flex form-control rounded-5 ps-2">
           <FormControl type="search" placeholder="Search for products" className="my-0 border-0 rounded-5" aria-label="Search"/>
           <Button variant="outline-light">
@@ -295,7 +295,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="titles mt-2">Nothing Phones | Midnight Sale </h4>
+              <h4 className="titles mt-2">Nothing Phones | Midnight Sale Is Live</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">
@@ -387,7 +387,7 @@ const Mycard = () => {
                       style={{ height: '120px', width: '100%', objectFit: 'cover' }}
                     />
                   </a>
-                  <h6 className="mt-2 text-center">Coffee Table Upto 60% Off</h6>
+                  <h6 className="mt-2 text-center">Coffee Table 60% Off</h6>
                 </div>
 
                 {/* Third Image with Title */}
@@ -430,7 +430,7 @@ const Mycard = () => {
           <div className="col">
             {/* Second Card */}
             <div className="card p-3 mx-auto" style={{ width: '400px', height:'500px' }}>
-              <h4 className="titles mt-2">Gaming Phones | Exciting Offers</h4>
+              <h4 className="titles mt-2">Gaming Phones | Exciting Offers Available</h4>
               <div className="row mt-2">
                 {/* First Image with Title */}
                 <div className="col-6">

@@ -10,7 +10,7 @@ const MyNavbar = () => {
   return (
     <>
       {/* Navbar Component */}
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar bg="dark" expand="lg" variant="dark" fixed="top">
         {/* Corrected variant usage for dark theme */}
         <Container>
           <Navbar.Brand href="#home" className="Brand text-white">

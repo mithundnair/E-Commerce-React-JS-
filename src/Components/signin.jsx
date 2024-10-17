@@ -48,7 +48,7 @@ const Mysign = () => {
                             </div>
 
                             <p class = "fw-bold text-white">To verify your Email, we will send you a mail with a temporary code. Message and data rates may apply.</p>
-                            <a href="#">
+                            <a href="link">
                                 <span></span>
                                 <span></span>
                                 <span></span>
@@ -56,7 +56,7 @@ const Mysign = () => {
                                     Verify
                             </a>
                         </form>
-                        <p class="fw-bold">Already have an account? <Link to="/login" className="a2">Log in!</Link></p>
+                        <p class="fw-bold">Already have an account? <Link to="/login" className="a2">Log in</Link></p>
                 </div>
             </div>
         </>
